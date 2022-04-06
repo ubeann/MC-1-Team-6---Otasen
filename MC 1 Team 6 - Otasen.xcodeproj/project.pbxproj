@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F452AFAF27FD44490086D521 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F452AFAE27FD44490086D521 /* MainViewController.swift */; };
 		F4DBDA2B27FBE8AA007C5A4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DBDA2A27FBE8AA007C5A4D /* AppDelegate.swift */; };
 		F4DBDA2D27FBE8AA007C5A4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DBDA2C27FBE8AA007C5A4D /* SceneDelegate.swift */; };
 		F4DBDA2F27FBE8AA007C5A4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DBDA2E27FBE8AA007C5A4D /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F452AFAE27FD44490086D521 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F4DBDA2727FBE8AA007C5A4D /* MC 1 Team 6 - Otasen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MC 1 Team 6 - Otasen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DBDA2A27FBE8AA007C5A4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4DBDA2C27FBE8AA007C5A4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				F4DBDA2A27FBE8AA007C5A4D /* AppDelegate.swift */,
 				F4DBDA2C27FBE8AA007C5A4D /* SceneDelegate.swift */,
 				F4DBDA2E27FBE8AA007C5A4D /* ViewController.swift */,
+				F452AFAE27FD44490086D521 /* MainViewController.swift */,
 				F4DBDA3027FBE8AA007C5A4D /* Main.storyboard */,
 				F4DBDA3327FBE8AC007C5A4D /* Assets.xcassets */,
 				F4DBDA3527FBE8AC007C5A4D /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				F4DBDA2F27FBE8AA007C5A4D /* ViewController.swift in Sources */,
 				F4DBDA2B27FBE8AA007C5A4D /* AppDelegate.swift in Sources */,
 				F4DBDA2D27FBE8AA007C5A4D /* SceneDelegate.swift in Sources */,
+				F452AFAF27FD44490086D521 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
