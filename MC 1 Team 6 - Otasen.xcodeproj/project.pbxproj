@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		F452AFAE27FD44490086D521 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		F4DBDA2727FBE8AA007C5A4D /* MC 1 Team 6 - Otasen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MC 1 Team 6 - Otasen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DBDA2727FBE8AA007C5A4D /* Otasen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Otasen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DBDA2A27FBE8AA007C5A4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4DBDA2C27FBE8AA007C5A4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F4DBDA2E27FBE8AA007C5A4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		F4DBDA2827FBE8AA007C5A4D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4DBDA2727FBE8AA007C5A4D /* MC 1 Team 6 - Otasen.app */,
+				F4DBDA2727FBE8AA007C5A4D /* Otasen.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F4DBDA2627FBE8AA007C5A4D /* MC 1 Team 6 - Otasen */ = {
+		F4DBDA2627FBE8AA007C5A4D /* Otasen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4DBDA3B27FBE8AC007C5A4D /* Build configuration list for PBXNativeTarget "MC 1 Team 6 - Otasen" */;
+			buildConfigurationList = F4DBDA3B27FBE8AC007C5A4D /* Build configuration list for PBXNativeTarget "Otasen" */;
 			buildPhases = (
 				F4DBDA2327FBE8AA007C5A4D /* Sources */,
 				F4DBDA2427FBE8AA007C5A4D /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = "MC 1 Team 6 - Otasen";
+			name = Otasen;
 			productName = "MC 1 Team 6 - Otasen";
-			productReference = F4DBDA2727FBE8AA007C5A4D /* MC 1 Team 6 - Otasen.app */;
+			productReference = F4DBDA2727FBE8AA007C5A4D /* Otasen.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4DBDA2627FBE8AA007C5A4D /* MC 1 Team 6 - Otasen */,
+				F4DBDA2627FBE8AA007C5A4D /* Otasen */,
 			);
 		};
 /* End PBXProject section */
@@ -293,6 +293,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MC 1 Team 6 - Otasen/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Otasen;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -307,7 +308,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,6 +321,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MC 1 Team 6 - Otasen/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Otasen;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -334,7 +336,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -350,7 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F4DBDA3B27FBE8AC007C5A4D /* Build configuration list for PBXNativeTarget "MC 1 Team 6 - Otasen" */ = {
+		F4DBDA3B27FBE8AC007C5A4D /* Build configuration list for PBXNativeTarget "Otasen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4DBDA3C27FBE8AC007C5A4D /* Debug */,
