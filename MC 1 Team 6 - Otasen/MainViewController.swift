@@ -9,10 +9,14 @@ import UIKit
 
 class MainViewController: UIViewController {
 
+    // Component
+    @IBOutlet var btnAdd:UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
+        btnAdd.titleLabel?.textAlignment = .center
     }
     
 
