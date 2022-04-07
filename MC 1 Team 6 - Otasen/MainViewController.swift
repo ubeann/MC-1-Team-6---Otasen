@@ -6,10 +6,12 @@
 //
 
 import UIKit
+import Lottie
 
 class MainViewController: UIViewController {
 
     // Component
+    @IBOutlet weak var catAnimation: AnimationView!
     @IBOutlet var btnAdd:UIButton!
     
     override func viewDidLoad() {
@@ -17,6 +19,12 @@ class MainViewController: UIViewController {
         
         // Do any additional setup after loading the view.
         btnAdd.titleLabel?.textAlignment = .center
+        
+        // Cat Animation
+        catAnimation.contentMode = .scaleAspectFit
+        catAnimation.loopMode = .loop
+        catAnimation.animationSpeed = 1
+        catAnimation.play()
     }
     
 
